@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp | Telephone Number Validator</title>
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/css/syles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Telephone Number Validator</h1>
+        <p>In the US, phone numbers can be formatted in many ways.</p>
+        <div class="card">
+            <form>
+              <div class ="align">
+                  <input 
+                      type="text" 
+                      id="user-input" 
+                      name="text-input" 
+                      class="input"
+                      placeholder="Type something..."
+                  />
+                  <button 
+                      type="button" 
+                      id="check-btn" 
+                      onclick="validatePhoneNumber()" 
+                      class="button">Check
+                  </button>
+                  <button 
+                      type="button" 
+                      id="clear-btn" 
+                      onclick="clearResults()">Clear
+                </button>
+              </div>
+                <div 
+                    id="results-div"
+                >
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
